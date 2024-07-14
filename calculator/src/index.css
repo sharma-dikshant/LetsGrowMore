@@ -1,0 +1,88 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .App {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .calc-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-wrapper {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 2em;
+    word-wrap: break-word;
+    min-height: 80px;
+  }
+  
+  .input-wrapper .result {
+    color: #2ecc71;
+    font-size: 0.7em;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .button-wrapper {
+    background-color: #3498db;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-wrapper:hover {
+    background-color: #2980b9;
+  }
+  
+  .button-wrapper:nth-child(4n) {
+    background-color: #f39c12;
+  }
+  
+  .button-wrapper:nth-child(4n):hover {
+    background-color: #e67e22;
+  }
+  
+  .button-wrapper:last-child {
+    background-color: #e74c3c;
+    flex: 1 100%;
+  }
+  
+  .button-wrapper:last-child:hover {
+    background-color: #c0392b;
+  }
+  
+  strong {
+    font-size: 1.5em;
+  }
+  
